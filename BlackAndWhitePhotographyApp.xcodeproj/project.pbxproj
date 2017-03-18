@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5542EB1E7CA51200ACCD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */; };
+		DC5542ED1E7CA51200ACCD45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542EC1E7CA51200ACCD45 /* ViewController.swift */; };
+		DC5542F01E7CA51200ACCD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5542EE1E7CA51200ACCD45 /* Main.storyboard */; };
+		DC5542F21E7CA51200ACCD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5542F11E7CA51200ACCD45 /* Assets.xcassets */; };
+		DC5542F51E7CA51200ACCD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5542F31E7CA51200ACCD45 /* LaunchScreen.storyboard */; };
+		DC5543001E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542FF1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift */; };
+		DC55430B1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55430A1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5542FC1E7CA51300ACCD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5542DF1E7CA51200ACCD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5542E61E7CA51200ACCD45;
+			remoteInfo = BlackAndWhitePhotographyApp;
+		};
+		DC5543071E7CA51300ACCD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5542DF1E7CA51200ACCD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5542E61E7CA51200ACCD45;
+			remoteInfo = BlackAndWhitePhotographyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5542E71E7CA51200ACCD45 /* BlackAndWhitePhotographyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackAndWhitePhotographyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5542EC1E7CA51200ACCD45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5542EF1E7CA51200ACCD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5542F11E7CA51200ACCD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5542F41E7CA51200ACCD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5542F61E7CA51200ACCD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5542FB1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackAndWhitePhotographyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5542FF1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackAndWhitePhotographyAppTests.swift; sourceTree = "<group>"; };
+		DC5543011E7CA51300ACCD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5543061E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackAndWhitePhotographyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC55430A1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackAndWhitePhotographyAppUITests.swift; sourceTree = "<group>"; };
+		DC55430C1E7CA51300ACCD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5542E41E7CA51200ACCD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5542F81E7CA51300ACCD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5543031E7CA51300ACCD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5542DE1E7CA51200ACCD45 = {
+			isa = PBXGroup;
+			children = (
+				DC5542E91E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */,
+				DC5542FE1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests */,
+				DC5543091E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests */,
+				DC5542E81E7CA51200ACCD45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5542E81E7CA51200ACCD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5542E71E7CA51200ACCD45 /* BlackAndWhitePhotographyApp.app */,
+				DC5542FB1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.xctest */,
+				DC5543061E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5542E91E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */,
+				DC5542EC1E7CA51200ACCD45 /* ViewController.swift */,
+				DC5542EE1E7CA51200ACCD45 /* Main.storyboard */,
+				DC5542F11E7CA51200ACCD45 /* Assets.xcassets */,
+				DC5542F31E7CA51200ACCD45 /* LaunchScreen.storyboard */,
+				DC5542F61E7CA51200ACCD45 /* Info.plist */,
+			);
+			path = BlackAndWhitePhotographyApp;
+			sourceTree = "<group>";
+		};
+		DC5542FE1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5542FF1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift */,
+				DC5543011E7CA51300ACCD45 /* Info.plist */,
+			);
+			path = BlackAndWhitePhotographyAppTests;
+			sourceTree = "<group>";
+		};
+		DC5543091E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC55430A1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift */,
+				DC55430C1E7CA51300ACCD45 /* Info.plist */,
+			);
+			path = BlackAndWhitePhotographyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5542E61E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC55430F1E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyApp" */;
+			buildPhases = (
+				DC5542E31E7CA51200ACCD45 /* Sources */,
+				DC5542E41E7CA51200ACCD45 /* Frameworks */,
+				DC5542E51E7CA51200ACCD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackAndWhitePhotographyApp;
+			productName = BlackAndWhitePhotographyApp;
+			productReference = DC5542E71E7CA51200ACCD45 /* BlackAndWhitePhotographyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5542FA1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5543121E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppTests" */;
+			buildPhases = (
+				DC5542F71E7CA51300ACCD45 /* Sources */,
+				DC5542F81E7CA51300ACCD45 /* Frameworks */,
+				DC5542F91E7CA51300ACCD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5542FD1E7CA51300ACCD45 /* PBXTargetDependency */,
+			);
+			name = BlackAndWhitePhotographyAppTests;
+			productName = BlackAndWhitePhotographyAppTests;
+			productReference = DC5542FB1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5543051E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5543151E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppUITests" */;
+			buildPhases = (
+				DC5543021E7CA51300ACCD45 /* Sources */,
+				DC5543031E7CA51300ACCD45 /* Frameworks */,
+				DC5543041E7CA51300ACCD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5543081E7CA51300ACCD45 /* PBXTargetDependency */,
+			);
+			name = BlackAndWhitePhotographyAppUITests;
+			productName = BlackAndWhitePhotographyAppUITests;
+			productReference = DC5543061E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5542DF1E7CA51200ACCD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kent Kober";
+				TargetAttributes = {
+					DC5542E61E7CA51200ACCD45 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DC5542FA1E7CA51300ACCD45 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC5542E61E7CA51200ACCD45;
+					};
+					DC5543051E7CA51300ACCD45 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC5542E61E7CA51200ACCD45;
+					};
+				};
+			};
+			buildConfigurationList = DC5542E21E7CA51200ACCD45 /* Build configuration list for PBXProject "BlackAndWhitePhotographyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5542DE1E7CA51200ACCD45;
+			productRefGroup = DC5542E81E7CA51200ACCD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5542E61E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */,
+				DC5542FA1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests */,
+				DC5543051E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5542E51E7CA51200ACCD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5542F51E7CA51200ACCD45 /* LaunchScreen.storyboard in Resources */,
+				DC5542F21E7CA51200ACCD45 /* Assets.xcassets in Resources */,
+				DC5542F01E7CA51200ACCD45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5542F91E7CA51300ACCD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5543041E7CA51300ACCD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5542E31E7CA51200ACCD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5542ED1E7CA51200ACCD45 /* ViewController.swift in Sources */,
+				DC5542EB1E7CA51200ACCD45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5542F71E7CA51300ACCD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5543001E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5543021E7CA51300ACCD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC55430B1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5542FD1E7CA51300ACCD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5542E61E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */;
+			targetProxy = DC5542FC1E7CA51300ACCD45 /* PBXContainerItemProxy */;
+		};
+		DC5543081E7CA51300ACCD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5542E61E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */;
+			targetProxy = DC5543071E7CA51300ACCD45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC5542EE1E7CA51200ACCD45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5542EF1E7CA51200ACCD45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5542F31E7CA51200ACCD45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5542F41E7CA51200ACCD45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC55430D1E7CA51300ACCD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC55430E1E7CA51300ACCD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5543101E7CA51300ACCD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackAndWhitePhotographyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC5543111E7CA51300ACCD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackAndWhitePhotographyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC5543131E7CA51300ACCD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlackAndWhitePhotographyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackAndWhitePhotographyApp.app/BlackAndWhitePhotographyApp";
+			};
+			name = Debug;
+		};
+		DC5543141E7CA51300ACCD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlackAndWhitePhotographyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackAndWhitePhotographyApp.app/BlackAndWhitePhotographyApp";
+			};
+			name = Release;
+		};
+		DC5543161E7CA51300ACCD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlackAndWhitePhotographyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlackAndWhitePhotographyApp;
+			};
+			name = Debug;
+		};
+		DC5543171E7CA51300ACCD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlackAndWhitePhotographyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BlackAndWhitePhotographyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlackAndWhitePhotographyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5542E21E7CA51200ACCD45 /* Build configuration list for PBXProject "BlackAndWhitePhotographyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC55430D1E7CA51300ACCD45 /* Debug */,
+				DC55430E1E7CA51300ACCD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC55430F1E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5543101E7CA51300ACCD45 /* Debug */,
+				DC5543111E7CA51300ACCD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC5543121E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5543131E7CA51300ACCD45 /* Debug */,
+				DC5543141E7CA51300ACCD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC5543151E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5543161E7CA51300ACCD45 /* Debug */,
+				DC5543171E7CA51300ACCD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5542DF1E7CA51200ACCD45 /* Project object */;
+}
