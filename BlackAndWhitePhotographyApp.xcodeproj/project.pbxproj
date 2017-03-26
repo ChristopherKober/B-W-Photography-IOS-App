@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DC5542EB1E7CA51200ACCD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */; };
-		DC5542ED1E7CA51200ACCD45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542EC1E7CA51200ACCD45 /* ViewController.swift */; };
 		DC5542F01E7CA51200ACCD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5542EE1E7CA51200ACCD45 /* Main.storyboard */; };
 		DC5542F21E7CA51200ACCD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5542F11E7CA51200ACCD45 /* Assets.xcassets */; };
 		DC5542F51E7CA51200ACCD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5542F31E7CA51200ACCD45 /* LaunchScreen.storyboard */; };
 		DC5543001E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5542FF1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppTests.swift */; };
 		DC55430B1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55430A1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift */; };
+		DC9776711E886F8400E61A03 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9776701E886F8400E61A03 /* CameraViewController.swift */; };
+		DC9776731E886F8D00E61A03 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9776721E886F8D00E61A03 /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		DC5542E71E7CA51200ACCD45 /* BlackAndWhitePhotographyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackAndWhitePhotographyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC5542EC1E7CA51200ACCD45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC5542EF1E7CA51200ACCD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC5542F11E7CA51200ACCD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5542F41E7CA51200ACCD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		DC5543061E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackAndWhitePhotographyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC55430A1E7CA51300ACCD45 /* BlackAndWhitePhotographyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackAndWhitePhotographyAppUITests.swift; sourceTree = "<group>"; };
 		DC55430C1E7CA51300ACCD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9776701E886F8400E61A03 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		DC9776721E886F8D00E61A03 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Models/Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		DC5542E91E7CA51200ACCD45 /* BlackAndWhitePhotographyApp */ = {
 			isa = PBXGroup;
 			children = (
+				DCA0C3291E886D9A0094F6BD /* Controllers */,
+				DCA0C3281E886D670094F6BD /* Models */,
 				DC5542EA1E7CA51200ACCD45 /* AppDelegate.swift */,
-				DC5542EC1E7CA51200ACCD45 /* ViewController.swift */,
 				DC5542EE1E7CA51200ACCD45 /* Main.storyboard */,
 				DC5542F11E7CA51200ACCD45 /* Assets.xcassets */,
 				DC5542F31E7CA51200ACCD45 /* LaunchScreen.storyboard */,
@@ -123,6 +126,22 @@
 				DC55430C1E7CA51300ACCD45 /* Info.plist */,
 			);
 			path = BlackAndWhitePhotographyAppUITests;
+			sourceTree = "<group>";
+		};
+		DCA0C3281E886D670094F6BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC9776721E886F8D00E61A03 /* Camera.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DCA0C3291E886D9A0094F6BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC9776701E886F8400E61A03 /* CameraViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5542ED1E7CA51200ACCD45 /* ViewController.swift in Sources */,
 				DC5542EB1E7CA51200ACCD45 /* AppDelegate.swift in Sources */,
+				DC9776711E886F8400E61A03 /* CameraViewController.swift in Sources */,
+				DC9776731E886F8D00E61A03 /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				DC5543111E7CA51300ACCD45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC5543121E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				DC5543141E7CA51300ACCD45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC5543151E7CA51300ACCD45 /* Build configuration list for PBXNativeTarget "BlackAndWhitePhotographyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				DC5543171E7CA51300ACCD45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
