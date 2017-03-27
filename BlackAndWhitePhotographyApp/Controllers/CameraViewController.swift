@@ -9,18 +9,21 @@
 import UIKit
 
 class CameraViewController: UIViewController {
+    
+    var c: Camera!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated);
+        
+        if (c == nil) {
+            c = Camera()
+        }
     }
     
+    
+    @IBAction func takePicture(sender: UIButton) {
+        print("Unimplemented Feature")
+    }
 
     /*
     // MARK: - Navigation
