@@ -20,13 +20,13 @@ class Camera {
     
     
     init() {
-        status = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
+        status = AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo)
         captureSession = nil
         stillImage = nil
         previewLayer = nil
         picture = nil
         
-        if (status == AVAuthorizationStatus.Authorized) {
+        if (status == AVAuthorizationStatus.authorized) {
             prepareCamera()
         }
     }
@@ -39,6 +39,6 @@ class Camera {
         return status.rawValue
     }
     
-    private func prepareCamera() {}
+    fileprivate func prepareCamera() {}
 
 }

@@ -12,7 +12,7 @@ class CameraViewController: UIViewController {
     
     var c: Camera!
 
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
         
         if (c == nil) {
@@ -21,7 +21,7 @@ class CameraViewController: UIViewController {
     }
     
     
-    @IBAction func takePicture(sender: UIButton) {
+    @IBAction func takePicture(_ sender: UIButton) {
         print("Unimplemented Feature")
     }
 
