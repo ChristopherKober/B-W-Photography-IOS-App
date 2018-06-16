@@ -8,16 +8,23 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 class CameraViewController: UIViewController {
     
-    var c: Camera!
-
+    var camera: Camera!
+    @IBOutlet weak var imagePreview: CameraPreviewView!
+    
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
         
-        if (c == nil) {
-            c = Camera()
+        if (camera == nil) {
+            camera = Camera()
         }
+        
+        imagePreview.setSession(captureSession: camera.getSession())
+        
+        camera.startRunning()
     }
     
     
